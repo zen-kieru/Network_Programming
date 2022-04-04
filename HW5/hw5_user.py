@@ -61,3 +61,4 @@ while True:
         s2 = socket(AF_INET, SOCK_STREAM)
         s2.connect(('localhost', 7777))
         s2.send(b'quit')
+        break
