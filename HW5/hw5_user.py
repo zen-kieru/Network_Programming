@@ -47,7 +47,7 @@ while True:
 
         t = time.ctime(time.time())  # 문자열로 시간 반환
         d2_data = t + ':Device2: heartbeat=' + heartbeat.decode() + \
-            ', stepsd=' + steps.decode() + ', cal=' + cal.decode() + '\n'
+            ', steps=' + steps.decode() + ', cal=' + cal.decode() + '\n'
 
         f = open('data.txt', 'a')
         f.write(d2_data)
