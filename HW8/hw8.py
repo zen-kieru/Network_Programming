@@ -53,5 +53,5 @@ print(binascii.b2a_hex(packed_udphdr))
 
 unpacked_udphdr = unpack_Udphdr(packed_udphdr)
 print(unpacked_udphdr)
-print('Source Port:{} Destication Port:{} Length:{} Checksum:{}' .format(getSrcPort(unpacked_udphdr),
+print('Source Port:{} Destination Port:{} Length:{} Checksum:{}' .format(getSrcPort(unpacked_udphdr),
                                                                          getDstPort(unpacked_udphdr), getLength(unpacked_udphdr), getChecksum(unpacked_udphdr)))
